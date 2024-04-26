@@ -10,23 +10,23 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Gregarious Frank Squirrel</title>
-        <meta property="og:title" content="Gregarious Frank Squirrel" />
+        <title>Momoriyan</title>
+        <meta property="og:title" content="Momoriyan" />
       </Helmet>
       <div className="home-header">
         <header
           data-thq="thq-navbar"
           className="navbarContainer home-navbar-interactive"
         >
-          <span className="logo">TASTY</span>
+          <span className="logo">Momoriyan</span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links"></nav>
-            <div className="home-container01">
+            {/* <div className="home-container01">
               <div className="home-buttons">
                 <button className="home-login buttonFlat">Login</button>
                 <button className="buttonFilled">Register</button>
               </div>
-            </div>
+            </div> */}
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon socialIcons">
@@ -39,7 +39,7 @@ const Home = (props) => {
           >
             <div className="home-nav">
               <div className="home-top">
-                <span className="logo">TASTY</span>
+                <span className="logo">Momoriyan</span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -56,10 +56,10 @@ const Home = (props) => {
                 <span className="home-nav42 bodySmall">Locations</span>
                 <span className="home-nav52 bodySmall">Contact</span>
               </nav>
-              <div className="home-buttons1">
+              {/* <div className="home-buttons1">
                 <button className="buttonFlat">Login</button>
                 <button className="buttonFilled">Register</button>
-              </div>
+              </div> */}
             </div>
             <div>
               <svg
@@ -88,7 +88,7 @@ const Home = (props) => {
         <div className="home-hero1 heroContainer">
           <div className="home-container02">
             <h1 className="home-hero-heading heading1">
-              Welcome to Quick Bites Cafe
+              Welcome to Momoriyan
             </h1>
             <span className="home-hero-sub-heading bodyLarge">
               <span>
